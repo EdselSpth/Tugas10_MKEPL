@@ -1,5 +1,3 @@
-import src.main.java.Counter;
-
 public class Driver {
 
 	public static void main(String[] args) {
@@ -14,6 +12,10 @@ public class Driver {
 		
 		counter.decrement();
 		
+		System.out.println("Count:" + counter.getCount());
+
+		counter.setCount(10);
+
 		System.out.println("Count:" + counter.getCount());
 		
 	}

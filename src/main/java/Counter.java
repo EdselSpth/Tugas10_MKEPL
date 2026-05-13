@@ -1,5 +1,3 @@
-package src.main.java;
-
 public class Counter {
 
 	private int count;
@@ -22,6 +20,10 @@ public class Counter {
 	
 	public int getCount() {
 		return count;
+	}
+
+	public void setCount(int count) {
+		this.count = count;
 	}
 	
 }
